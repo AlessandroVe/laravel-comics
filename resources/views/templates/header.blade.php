@@ -6,11 +6,11 @@
 
 </div>
 <div class="container nav-top">
-    <div class="row">
-        <div class="col logo-nav">
-            <img src="" alt="">
+    <div class="d-flex align-items-center">
+        <div class=" logo-nav">
+            <img src="images/dc-logo.png" alt="">
         </div>
-        <ul class="col d-flex">
+        <ul class=" d-flex">
             <li>s</li>
             <li>s</li>
             <li>s</li>
@@ -22,7 +22,7 @@
             <li>s</li>
             <li>s</li>
         </ul>
-        <div class="col">
+        <div class="">
             <input type="seach">
         </div>
     </div>
