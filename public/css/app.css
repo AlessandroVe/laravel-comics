@@ -1,13 +1,15 @@
-header {
+.little-banner {
   background-color: blue;
   font-size: 12px;
   padding-right: 5px;
 }
 
-header span {
+.little-banner span {
   font-weight: bold;
   margin: 5px;
 }
+
+/* NAV-TOP */
 
 * {
   margin: 0px;
