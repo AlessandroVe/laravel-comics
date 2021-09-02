@@ -1,0 +1,17 @@
+header {
+  background-color: blue;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+header span {
+  font-weight: bold;
+  margin: 5px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
