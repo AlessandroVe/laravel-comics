@@ -10,7 +10,7 @@
         <div class="logo-nav">
             <img src="images/dc-logo.png" alt="">
         </div>
-        <ul class="d-flex  nav-items">
+        <ul class="d-flex nav-items">
             <li><a href="">CHARACTERS</a></li>
             <li><a href="">COMICS</a></li>
             <li><a href="">MOVIES</a></li>
