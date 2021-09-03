@@ -11,7 +11,24 @@
 /* NAV-TOP */
 .nav-top{
     .logo-nav{
-        
+        flex-basis: 100px;
+        flex-shrink: 0;
     }
-
+    .nav-items{
+        list-style: none;
+        li{
+            margin: 5px;
+            
+        }
+    }
+    .search{
+        flex-basis: 100px;
+        flex-shrink: 0;
+    }
+}
+/* big-banner */
+.big-bannner{
+    height: 250px;
+    background-image: url("/images/jumbotron.jpg");
+    background-size: cover;
 }
