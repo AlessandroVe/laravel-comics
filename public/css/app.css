@@ -24,6 +24,10 @@
   margin: 5px;
 }
 
+.nav-top .nav-items li a {
+  text-decoration: none;
+}
+
 .nav-top .search {
   flex-basis: 100px;
   flex-shrink: 0;
