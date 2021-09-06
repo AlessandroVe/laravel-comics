@@ -19,4 +19,16 @@ Route::get('/', function () {
         'comics' => $comics
     ]
 );
-});
+})->name('home');
+
+
+Route::get('/product/{id}', function ($id) {
+    //aggiorno l'id con un valore posizionale 
+    $arrayIndex=$id-1;
+    $comics=config('comics');
+    return view('product',[
+        'comics' => $comics,
+        'arrayIndex'=>$arrayIndex
+    ]
+);
+})->name('product');

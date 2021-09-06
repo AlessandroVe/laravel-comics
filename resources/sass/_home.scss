@@ -3,12 +3,14 @@
     .comic{
         padding-top: 15px;
         padding-bottom: 15px;
-        color: white;
-        .cover{
-            width: 100%;
-            img{
+        a{
+            color: white;
+            .cover{
                 width: 100%;
-                
+                img{
+                    width: 100%;
+                    
+                }
             }
         }
     }

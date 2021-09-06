@@ -10974,6 +10974,15 @@ a.text-dark:focus {
   margin: 5px;
 }
 
+.nav-top .nav-items li.active {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.nav-top .nav-items li.active a {
+  color: blue;
+}
+
 .nav-top .nav-items li a {
   text-decoration: none;
   color: black;
@@ -10987,7 +10996,7 @@ a.text-dark:focus {
 /* big-banner */
 
 .big-bannner {
-  height: 250px;
+  height: 300px;
   background-image: url("/images/jumbotron.jpg");
   background-size: cover;
 }
@@ -11094,14 +11103,17 @@ footer .container-xl .last-banner .our-social-networks img {
 .content .comic {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.content .comic a {
   color: white;
 }
 
-.content .comic .cover {
+.content .comic a .cover {
   width: 100%;
 }
 
-.content .comic .cover img {
+.content .comic a .cover img {
   width: 100%;
 }
 

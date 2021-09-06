@@ -8,10 +8,12 @@
             <div class="row">
                 @foreach($comics as $comic)
                     <div class="comic col-2">
-                        <div class="cover">
-                            <img src="{{$comic['thumb']}}" alt="">
-                        </div>
-                        <span>{{$comic['title']}}</span>
+                        <a href="{{ route('product',[ 'id' => $loop->iteration])}}">
+                            <div class="cover">
+                                <img src="{{$comic['thumb']}}" alt="">
+                            </div>
+                            <span>{{$comic['title']}}</span>
+                        </a>
                     </div>
                 @endforeach
             </div>
