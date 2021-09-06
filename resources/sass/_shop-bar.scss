@@ -1,4 +1,18 @@
 .shop-bar{
     background-color:rgb(0, 204, 255) ;
     height: 200px;
+    .items-bar{
+        height: 200px;
+        .item-bar:nth-child(4){
+            img{
+                width: 40px;
+            }
+        }
+        .item-bar{
+            flex-basis: calc(100% / 5);
+            img{
+                width: 60px;
+            }
+        }
+    }
 }

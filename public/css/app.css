@@ -11119,3 +11119,19 @@ footer .container-xl .last-banner .our-social-networks img {
   height: 200px;
 }
 
+.shop-bar .items-bar {
+  height: 200px;
+}
+
+.shop-bar .items-bar .item-bar:nth-child(4) img {
+  width: 40px;
+}
+
+.shop-bar .items-bar .item-bar {
+  flex-basis: calc(100% / 5);
+}
+
+.shop-bar .items-bar .item-bar img {
+  width: 60px;
+}
+
