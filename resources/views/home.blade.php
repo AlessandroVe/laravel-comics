@@ -3,10 +3,17 @@
 @section('title', 'HomePage')
 
 @section('content')
-    <ul>
-        <li>prodotto1</li>
-        <li>prodotto2</li>
-        <li>prodotto3</li>
-        <li>prodotto4</li>
-    </ul>
+    <div class="row">
+        @foreach($comics as $comic)
+            <div class="comic col-2">
+                <div class="cover">
+                    <img src="{{$comic['thumb']}}" alt="">
+                </div>
+                <span>{{$comic['title']}}</span>
+            </div>
+        @endforeach
+    </div>
+    <div class="text-center load-more">
+        <button>LOAD MORE</button>
+    </div>
 @endsection

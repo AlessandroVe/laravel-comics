@@ -14,11 +14,15 @@
     <header>
         @include('templates.header')
     </header>
-
-        <div class="container">
-            @yield('content')
+        <div class="container-fluid content">
+            <div class="container ">
+                @yield('content')
+            </div>
         </div>
 
+    <div class="container-fluid">
+        @include('templates.shop-bar')
+    </div>
     <footer>
         @include('templates.footer')
     </footer>

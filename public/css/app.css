@@ -11087,3 +11087,35 @@ footer .container-xl .last-banner .our-social-networks img {
   margin: 0 8px 0 8px;
 }
 
+.content {
+  background-color: black;
+}
+
+.content .comic {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.content .comic .cover {
+  width: 100%;
+}
+
+.content .comic .cover img {
+  width: 100%;
+}
+
+.content .load-more button {
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 5px 40px 5px 40px;
+  background-color: #00ccff;
+  margin: 45px;
+}
+
+.shop-bar {
+  background-color: #00ccff;
+  height: 200px;
+}
+

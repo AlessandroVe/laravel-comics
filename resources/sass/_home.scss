@@ -1,0 +1,26 @@
+.content{
+    background-color: black;
+    .comic{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: white;
+        .cover{
+            width: 100%;
+            img{
+                width: 100%;
+                
+            }
+        }
+    }
+    .load-more{
+        button{
+            font-weight: bold;
+            color: white;
+            border: none;
+            padding: 5px 40px 5px 40px;
+            background-color:rgb(0, 204, 255) ;
+            margin: 45px;
+        }
+    }
+
+}
