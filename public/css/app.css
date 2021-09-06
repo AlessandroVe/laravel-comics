@@ -10996,7 +10996,7 @@ a.text-dark:focus {
 /* big-banner */
 
 .big-bannner {
-  height: 300px;
+  height: 350px;
   background-image: url("/images/jumbotron.jpg");
   background-size: cover;
 }
@@ -11145,5 +11145,36 @@ footer .container-xl .last-banner .our-social-networks img {
 
 .content .shop-bar .items-bar .item-bar img {
   width: 60px;
+}
+
+.cover-bar {
+  height: 80px;
+  background-color: #00ccff;
+}
+
+.cover-bar .cover-comic {
+  position: relative;
+}
+
+.cover-bar .cover-comic img {
+  position: absolute;
+  bottom: -60px;
+}
+
+.description-comic .status-comic {
+  height: 50px;
+  background-color: #08d608;
+}
+
+.advertisement {
+  text-align: right;
+}
+
+.advertisement img {
+  width: 100%;
+}
+
+.general-information {
+  background-color: lightgray;
 }
 

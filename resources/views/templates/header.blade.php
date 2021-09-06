@@ -12,7 +12,7 @@
         </div>
         <ul class="d-flex nav-items">
             <li><a href="">CHARACTERS</a></li>
-            <li class="{{Request::route()->getName() === 'home' ? 'active' : ''}}" ><a href="">COMICS</a></li>
+            <li class="{{Request::route()->getName() === 'home' ? 'active' : ''}}" ><a href="{{route('home')}}">COMICS</a></li>
             <li><a href="">MOVIES</a></li>
             <li><a href="">TV</a></li>
             <li><a href="">GAMES</a></li>

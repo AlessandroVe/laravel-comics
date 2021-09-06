@@ -1,0 +1,26 @@
+.cover-bar{
+    height: 80px;
+    background-color: rgb(0, 204, 255);
+    .cover-comic{
+        position: relative;
+       img{
+        position: absolute;
+        bottom: -60px;
+       }
+    }
+}
+.description-comic{
+    .status-comic{
+        height: 50px;
+        background-color: rgb(8, 214, 8);
+    }
+}
+.advertisement{
+    text-align:right;
+    img{
+        width: 100%;
+    }
+}
+.general-information{
+    background-color: lightgray
+}
